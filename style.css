@@ -12,6 +12,7 @@ p {
 ul {
     padding: 0;
     list-style-type: none;
+    margin: 0;
 }
 /* Header */
 
@@ -267,6 +268,7 @@ footer {
   min-height: 10vh;
   background-color: #fff;
   display: flex;
+    padding-bottom: 10vh;
 }
 
 footer ul {
@@ -274,6 +276,7 @@ footer ul {
   flex-flow: row;
   margin: auto;
   width: 100%;
+    padding: 2vh;
 }
 
 footer a {
@@ -285,6 +288,48 @@ footer li {
   margin: auto;
     list-style-type: none;
 }
+
+/* NAV */
+
+nav {
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,50,0.8);
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  width: 25%;
+    height: 10vh;
+  text-align: center;
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  display: block;
+  margin: auto;
+}
+
+nav span {
+  display: block;
+}
+
+nav .fa {
+  font-size: 1.8rem;
+}
+
+nav span:not(.fa) {
+  font-size: 0.8rem;
+}
+
 
 
 
